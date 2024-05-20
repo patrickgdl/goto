@@ -21,8 +21,6 @@ export const gotoRouter: Router = (() => {
       state: expectedStateForAuthorizationCode,
     });
 
-    console.log('Open in browser to send a SMS: ', authorizationUrl);
-
     return res.status(200).send(authorizationUrl);
   });
 
