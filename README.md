@@ -1,17 +1,8 @@
-# 🚀 Express TypeScript Boilerplate 2024
-
-[![Build Express Application](https://github.com/edwinhern/express-typescript-2024/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/edwinhern/express-typescript-2024/actions/workflows/build.yml)
-[![CodeQL](https://github.com/edwinhern/express-typescript-2024/actions/workflows/codeql.yml/badge.svg?branch=master)](https://github.com/edwinhern/express-typescript-2024/actions/workflows/codeql.yml)
-[![Docker Image CI](https://github.com/edwinhern/express-typescript-2024/actions/workflows/docker-image.yml/badge.svg?branch=master)](https://github.com/edwinhern/express-typescript-2024/actions/workflows/docker-image.yml)
-[![Release](https://github.com/edwinhern/express-typescript-2024/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/edwinhern/express-typescript-2024/actions/workflows/release.yml)
-
-## 🌟 Introduction
-
-Welcome to the Express TypeScript Boilerplate 2024 – a streamlined, efficient, and scalable foundation for building powerful backend services. This boilerplate merges modern tools and practices in Express.js and TypeScript, enhancing productivity, code quality, and performance.
+# 🚀 Express with TypeScript
 
 ## 💡 Motivation and Intentions
 
-Developed to streamline backend development, this boilerplate is your solution for:
+Developed to streamline backend development, a solution for:
 
 - ✨ Reducing setup time for new projects.
 - 📊 Ensuring code consistency and quality.
@@ -40,8 +31,8 @@ Developed to streamline backend development, this boilerplate is your solution f
 
 ### Step 1: 🚀 Initial Setup
 
-- Clone the repository: `git clone https://github.com/primedb/ms_goto`
-- Navigate: `cd ms_goto`
+- Clone the repository: `git clone https://github.com/patrickgdl/goto`
+- Navigate: `cd goto`
 - Install dependencies: `npm ci`
 
 ### Step 2: ⚙️ Environment Configuration
@@ -63,10 +54,7 @@ Developed to streamline backend development, this boilerplate is your solution f
 │   ├── healthCheck
 │   │   └── healthCheckRouter.ts
 │   └── goto
-│       ├── userModel.ts
-│       ├── userRepository.ts
-│       ├── userRouter.ts
-│       └── userService.ts
+│       ├── goto-router.ts
 ├── common
 │   ├── __tests__
 │   │   ├── errorHandler.test.ts
